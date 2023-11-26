@@ -1,6 +1,6 @@
 {
   "homepage": "https://horizon-ui.com/horizon-ui-chakra",
-  "name": "horizon-ui-chakra",
+  "name": "tjeerdsantema",
   "version": "1.0.1",
   "private": true,
   "dependencies": {
@@ -37,7 +37,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --port 3002 ",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
