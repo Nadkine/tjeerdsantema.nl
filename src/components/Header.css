@@ -1,0 +1,47 @@
+.header {
+  height: 180px;
+  border-bottom: 3px solid #61dafb;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  background: linear-gradient(135deg, #0d1b2a, #080f5c);
+  background-size: 600% 600%;
+  /* animation: animateBg 6s ease infinite; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.brand-logo {
+  height: 100px;
+  width: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.3);
+}
+
+.header h1 {
+  color: #90caf9;
+  text-shadow: 0 0 1px #000;
+  font-size: 2.8rem;
+  /* transition: transform 0.4s ease, filter 0.3s ease; */
+}
+
+
+@keyframes animateBg {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+
+.brand-left {
+  transform: scaleX(-1);
+}
+
+.brand-left:hover {
+  transform: scaleX(-1) scale(1.07) rotate3d(1, 1, 0, 6deg);
+  transition: transform 0.4s ease;
+}

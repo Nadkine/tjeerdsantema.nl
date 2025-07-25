@@ -1,0 +1,7 @@
+img, video, .icon {
+    transition: transform 0.3s ease;
+  }
+  /* img:hover, video:hover, .icon:hover {
+    transform: scale(1.05) rotate3d(1, 1, 0, 5deg);
+  } */
+  
